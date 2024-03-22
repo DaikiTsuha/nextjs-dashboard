@@ -1,13 +1,7 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 'use client';
 import { CustomerField } from '@/app/lib/definitions';
-import Link from 'next/link';
-import {
-  CheckIcon,
-  ClockIcon,
-  CurrencyDollarIcon,
-  UserCircleIcon,
-} from '@heroicons/react/24/outline';
-import { Button } from '@/app/ui/button';
+import { UserCircleIcon } from '@heroicons/react/24/outline';
 import { createInvoice } from '@/app/lib/actions';
 import { useFormState } from 'react-dom';
 
